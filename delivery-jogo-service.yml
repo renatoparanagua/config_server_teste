@@ -1,5 +1,5 @@
 server:
-  port: 9094
+  port: 9095
 
 eureka:
   instance:
@@ -33,4 +33,4 @@ security:
   oauth2:
     resource:
       userInfoUri: ${authserver.hostname}/user
-      id: players
+      id: jogos
